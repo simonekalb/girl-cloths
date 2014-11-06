@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036F9801FA6B428789492D41 /* libPods-Rocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97101B4710C64E5488F71DC1 /* libPods-Rocket.a */; };
+		14001D8C19EC066A00174D39 /* Cloth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14001D8A19EC066A00174D39 /* Cloth.xcdatamodeld */; };
+		14001D9819ED179200174D39 /* WomanClothTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14001D9619ED179200174D39 /* WomanClothTableViewCell.m */; };
+		14001D9919ED179200174D39 /* WomanClothTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14001D9719ED179200174D39 /* WomanClothTableViewCell.xib */; };
+		14115E4119C6EEAF00F5ABE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E4019C6EEAF00F5ABE1 /* Foundation.framework */; };
+		14115E4319C6EEAF00F5ABE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E4219C6EEAF00F5ABE1 /* CoreGraphics.framework */; };
+		14115E4519C6EEAF00F5ABE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E4419C6EEAF00F5ABE1 /* UIKit.framework */; };
+		14115E4B19C6EEAF00F5ABE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14115E4919C6EEAF00F5ABE1 /* InfoPlist.strings */; };
+		14115E4D19C6EEAF00F5ABE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E4C19C6EEAF00F5ABE1 /* main.m */; };
+		14115E5119C6EEAF00F5ABE1 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E5019C6EEAF00F5ABE1 /* RIAppDelegate.m */; };
+		14115E5419C6EEAF00F5ABE1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14115E5219C6EEAF00F5ABE1 /* Main_iPhone.storyboard */; };
+		14115E5719C6EEAF00F5ABE1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14115E5519C6EEAF00F5ABE1 /* Main_iPad.storyboard */; };
+		14115E5A19C6EEAF00F5ABE1 /* RIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E5919C6EEAF00F5ABE1 /* RIViewController.m */; };
+		14115E5C19C6EEAF00F5ABE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14115E5B19C6EEAF00F5ABE1 /* Images.xcassets */; };
+		14115E6319C6EEAF00F5ABE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E6219C6EEAF00F5ABE1 /* XCTest.framework */; };
+		14115E6419C6EEAF00F5ABE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E4019C6EEAF00F5ABE1 /* Foundation.framework */; };
+		14115E6519C6EEAF00F5ABE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14115E4419C6EEAF00F5ABE1 /* UIKit.framework */; };
+		14115E6D19C6EEAF00F5ABE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14115E6B19C6EEAF00F5ABE1 /* InfoPlist.strings */; };
+		14115E6F19C6EEAF00F5ABE1 /* RocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E6E19C6EEAF00F5ABE1 /* RocketTests.m */; };
+		14115E7A19C6EF1000F5ABE1 /* RIJSONFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E7919C6EF1000F5ABE1 /* RIJSONFetcher.m */; };
+		14115E7E19C6EFDF00F5ABE1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 14115E7D19C6EFDF00F5ABE1 /* Podfile */; };
+		14115E8419C6F4D300F5ABE1 /* RIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E8319C6F4D300F5ABE1 /* RIDataManager.m */; };
+		14115E8719C6F8BC00F5ABE1 /* RISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 14115E8619C6F8BC00F5ABE1 /* RISettings.m */; };
+		143544DA19EE5691008E3AFC /* WomanCloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 143544D919EE5691008E3AFC /* WomanCloth.m */; };
+		143544DD19EE57C3008E3AFC /* RIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143544DC19EE57C3008E3AFC /* RIDetailViewController.m */; };
+		143544DF19EE6AB4008E3AFC /* RISharedInstanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 143544DE19EE6AB4008E3AFC /* RISharedInstanceTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14115E6619C6EEAF00F5ABE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14115E3519C6EEAF00F5ABE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14115E3C19C6EEAF00F5ABE1;
+			remoteInfo = Rocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14001D8B19EC066A00174D39 /* Cloth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cloth.xcdatamodel; sourceTree = "<group>"; };
+		14001D9519ED179200174D39 /* WomanClothTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomanClothTableViewCell.h; sourceTree = "<group>"; };
+		14001D9619ED179200174D39 /* WomanClothTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomanClothTableViewCell.m; sourceTree = "<group>"; };
+		14001D9719ED179200174D39 /* WomanClothTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WomanClothTableViewCell.xib; sourceTree = "<group>"; };
+		14115E3D19C6EEAF00F5ABE1 /* Rocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14115E4019C6EEAF00F5ABE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14115E4219C6EEAF00F5ABE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14115E4419C6EEAF00F5ABE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14115E4819C6EEAF00F5ABE1 /* Rocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rocket-Info.plist"; sourceTree = "<group>"; };
+		14115E4A19C6EEAF00F5ABE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14115E4C19C6EEAF00F5ABE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14115E4E19C6EEAF00F5ABE1 /* Rocket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rocket-Prefix.pch"; sourceTree = "<group>"; };
+		14115E4F19C6EEAF00F5ABE1 /* RIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIAppDelegate.h; sourceTree = "<group>"; };
+		14115E5019C6EEAF00F5ABE1 /* RIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIAppDelegate.m; sourceTree = "<group>"; };
+		14115E5319C6EEAF00F5ABE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		14115E5619C6EEAF00F5ABE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		14115E5819C6EEAF00F5ABE1 /* RIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIViewController.h; sourceTree = "<group>"; };
+		14115E5919C6EEAF00F5ABE1 /* RIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIViewController.m; sourceTree = "<group>"; };
+		14115E5B19C6EEAF00F5ABE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14115E6119C6EEAF00F5ABE1 /* RocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14115E6219C6EEAF00F5ABE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14115E6A19C6EEAF00F5ABE1 /* RocketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RocketTests-Info.plist"; sourceTree = "<group>"; };
+		14115E6C19C6EEAF00F5ABE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14115E6E19C6EEAF00F5ABE1 /* RocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketTests.m; sourceTree = "<group>"; };
+		14115E7819C6EF0F00F5ABE1 /* RIJSONFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIJSONFetcher.h; sourceTree = "<group>"; };
+		14115E7919C6EF1000F5ABE1 /* RIJSONFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIJSONFetcher.m; sourceTree = "<group>"; };
+		14115E7D19C6EFDF00F5ABE1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14115E8219C6F4D300F5ABE1 /* RIDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIDataManager.h; sourceTree = "<group>"; };
+		14115E8319C6F4D300F5ABE1 /* RIDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIDataManager.m; sourceTree = "<group>"; };
+		14115E8519C6F8BC00F5ABE1 /* RISettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RISettings.h; sourceTree = "<group>"; };
+		14115E8619C6F8BC00F5ABE1 /* RISettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISettings.m; sourceTree = "<group>"; };
+		143544D819EE5691008E3AFC /* WomanCloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomanCloth.h; sourceTree = "<group>"; };
+		143544D919EE5691008E3AFC /* WomanCloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomanCloth.m; sourceTree = "<group>"; };
+		143544DB19EE57C3008E3AFC /* RIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIDetailViewController.h; sourceTree = "<group>"; };
+		143544DC19EE57C3008E3AFC /* RIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIDetailViewController.m; sourceTree = "<group>"; };
+		143544DE19EE6AB4008E3AFC /* RISharedInstanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISharedInstanceTest.m; sourceTree = "<group>"; };
+		97101B4710C64E5488F71DC1 /* libPods-Rocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE5606C84BE4F199440706E /* Pods-Rocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.xcconfig"; path = "Pods/Pods-Rocket.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14115E3A19C6EEAF00F5ABE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14115E4319C6EEAF00F5ABE1 /* CoreGraphics.framework in Frameworks */,
+				14115E4519C6EEAF00F5ABE1 /* UIKit.framework in Frameworks */,
+				14115E4119C6EEAF00F5ABE1 /* Foundation.framework in Frameworks */,
+				036F9801FA6B428789492D41 /* libPods-Rocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14115E5E19C6EEAF00F5ABE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14115E6319C6EEAF00F5ABE1 /* XCTest.framework in Frameworks */,
+				14115E6519C6EEAF00F5ABE1 /* UIKit.framework in Frameworks */,
+				14115E6419C6EEAF00F5ABE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14001D8D19EC067100174D39 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				14115E5219C6EEAF00F5ABE1 /* Main_iPhone.storyboard */,
+				14115E5519C6EEAF00F5ABE1 /* Main_iPad.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		14001D8E19EC067900174D39 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				14001D9019EC07C700174D39 /* Cell */,
+				14115E5819C6EEAF00F5ABE1 /* RIViewController.h */,
+				14115E5919C6EEAF00F5ABE1 /* RIViewController.m */,
+				143544DB19EE57C3008E3AFC /* RIDetailViewController.h */,
+				143544DC19EE57C3008E3AFC /* RIDetailViewController.m */,
+			);
+			name = VCs;
+			sourceTree = "<group>";
+		};
+		14001D8F19EC068A00174D39 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14115E8519C6F8BC00F5ABE1 /* RISettings.h */,
+				14115E8619C6F8BC00F5ABE1 /* RISettings.m */,
+				14115E8219C6F4D300F5ABE1 /* RIDataManager.h */,
+				14115E8319C6F4D300F5ABE1 /* RIDataManager.m */,
+				14115E7819C6EF0F00F5ABE1 /* RIJSONFetcher.h */,
+				14115E7919C6EF1000F5ABE1 /* RIJSONFetcher.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		14001D9019EC07C700174D39 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				14001D9519ED179200174D39 /* WomanClothTableViewCell.h */,
+				14001D9619ED179200174D39 /* WomanClothTableViewCell.m */,
+				14001D9719ED179200174D39 /* WomanClothTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		14001D9119EC07EB00174D39 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				14001D8A19EC066A00174D39 /* Cloth.xcdatamodeld */,
+				143544D819EE5691008E3AFC /* WomanCloth.h */,
+				143544D919EE5691008E3AFC /* WomanCloth.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		14115E3419C6EEAF00F5ABE1 = {
+			isa = PBXGroup;
+			children = (
+				14115E7D19C6EFDF00F5ABE1 /* Podfile */,
+				14115E4619C6EEAF00F5ABE1 /* Rocket */,
+				14115E6819C6EEAF00F5ABE1 /* RocketTests */,
+				14115E3F19C6EEAF00F5ABE1 /* Frameworks */,
+				14115E3E19C6EEAF00F5ABE1 /* Products */,
+				DEE5606C84BE4F199440706E /* Pods-Rocket.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		14115E3E19C6EEAF00F5ABE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14115E3D19C6EEAF00F5ABE1 /* Rocket.app */,
+				14115E6119C6EEAF00F5ABE1 /* RocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14115E3F19C6EEAF00F5ABE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14115E4019C6EEAF00F5ABE1 /* Foundation.framework */,
+				14115E4219C6EEAF00F5ABE1 /* CoreGraphics.framework */,
+				14115E4419C6EEAF00F5ABE1 /* UIKit.framework */,
+				14115E6219C6EEAF00F5ABE1 /* XCTest.framework */,
+				97101B4710C64E5488F71DC1 /* libPods-Rocket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14115E4619C6EEAF00F5ABE1 /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				14001D9119EC07EB00174D39 /* Data Model */,
+				14001D8F19EC068A00174D39 /* Model */,
+				14001D8E19EC067900174D39 /* VCs */,
+				14001D8D19EC067100174D39 /* UI */,
+				14115E4719C6EEAF00F5ABE1 /* Supporting Files */,
+				14115E4F19C6EEAF00F5ABE1 /* RIAppDelegate.h */,
+				14115E5019C6EEAF00F5ABE1 /* RIAppDelegate.m */,
+				14115E5B19C6EEAF00F5ABE1 /* Images.xcassets */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		14115E4719C6EEAF00F5ABE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14115E4819C6EEAF00F5ABE1 /* Rocket-Info.plist */,
+				14115E4919C6EEAF00F5ABE1 /* InfoPlist.strings */,
+				14115E4C19C6EEAF00F5ABE1 /* main.m */,
+				14115E4E19C6EEAF00F5ABE1 /* Rocket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14115E6819C6EEAF00F5ABE1 /* RocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				14115E6E19C6EEAF00F5ABE1 /* RocketTests.m */,
+				143544DE19EE6AB4008E3AFC /* RISharedInstanceTest.m */,
+				14115E6919C6EEAF00F5ABE1 /* Supporting Files */,
+			);
+			path = RocketTests;
+			sourceTree = "<group>";
+		};
+		14115E6919C6EEAF00F5ABE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14115E6A19C6EEAF00F5ABE1 /* RocketTests-Info.plist */,
+				14115E6B19C6EEAF00F5ABE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14115E3C19C6EEAF00F5ABE1 /* Rocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14115E7219C6EEAF00F5ABE1 /* Build configuration list for PBXNativeTarget "Rocket" */;
+			buildPhases = (
+				27F1D2A19BE54CB5ABF09D0A /* Check Pods Manifest.lock */,
+				14115E3919C6EEAF00F5ABE1 /* Sources */,
+				14115E3A19C6EEAF00F5ABE1 /* Frameworks */,
+				14115E3B19C6EEAF00F5ABE1 /* Resources */,
+				35753E6A0F8F491DADE8693F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rocket;
+			productName = Rocket;
+			productReference = 14115E3D19C6EEAF00F5ABE1 /* Rocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14115E6019C6EEAF00F5ABE1 /* RocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14115E7519C6EEAF00F5ABE1 /* Build configuration list for PBXNativeTarget "RocketTests" */;
+			buildPhases = (
+				14115E5D19C6EEAF00F5ABE1 /* Sources */,
+				14115E5E19C6EEAF00F5ABE1 /* Frameworks */,
+				14115E5F19C6EEAF00F5ABE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14115E6719C6EEAF00F5ABE1 /* PBXTargetDependency */,
+			);
+			name = RocketTests;
+			productName = RocketTests;
+			productReference = 14115E6119C6EEAF00F5ABE1 /* RocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14115E3519C6EEAF00F5ABE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RI;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					14115E6019C6EEAF00F5ABE1 = {
+						TestTargetID = 14115E3C19C6EEAF00F5ABE1;
+					};
+				};
+			};
+			buildConfigurationList = 14115E3819C6EEAF00F5ABE1 /* Build configuration list for PBXProject "Rocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14115E3419C6EEAF00F5ABE1;
+			productRefGroup = 14115E3E19C6EEAF00F5ABE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14115E3C19C6EEAF00F5ABE1 /* Rocket */,
+				14115E6019C6EEAF00F5ABE1 /* RocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14115E3B19C6EEAF00F5ABE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14115E7E19C6EFDF00F5ABE1 /* Podfile in Resources */,
+				14115E5719C6EEAF00F5ABE1 /* Main_iPad.storyboard in Resources */,
+				14115E5C19C6EEAF00F5ABE1 /* Images.xcassets in Resources */,
+				14001D9919ED179200174D39 /* WomanClothTableViewCell.xib in Resources */,
+				14115E5419C6EEAF00F5ABE1 /* Main_iPhone.storyboard in Resources */,
+				14115E4B19C6EEAF00F5ABE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14115E5F19C6EEAF00F5ABE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14115E6D19C6EEAF00F5ABE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F1D2A19BE54CB5ABF09D0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35753E6A0F8F491DADE8693F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Rocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14115E3919C6EEAF00F5ABE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14115E7A19C6EF1000F5ABE1 /* RIJSONFetcher.m in Sources */,
+				14001D8C19EC066A00174D39 /* Cloth.xcdatamodeld in Sources */,
+				143544DD19EE57C3008E3AFC /* RIDetailViewController.m in Sources */,
+				14115E8719C6F8BC00F5ABE1 /* RISettings.m in Sources */,
+				14115E4D19C6EEAF00F5ABE1 /* main.m in Sources */,
+				14115E8419C6F4D300F5ABE1 /* RIDataManager.m in Sources */,
+				14115E5119C6EEAF00F5ABE1 /* RIAppDelegate.m in Sources */,
+				14001D9819ED179200174D39 /* WomanClothTableViewCell.m in Sources */,
+				143544DA19EE5691008E3AFC /* WomanCloth.m in Sources */,
+				14115E5A19C6EEAF00F5ABE1 /* RIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14115E5D19C6EEAF00F5ABE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143544DF19EE6AB4008E3AFC /* RISharedInstanceTest.m in Sources */,
+				14115E6F19C6EEAF00F5ABE1 /* RocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14115E6719C6EEAF00F5ABE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14115E3C19C6EEAF00F5ABE1 /* Rocket */;
+			targetProxy = 14115E6619C6EEAF00F5ABE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14115E4919C6EEAF00F5ABE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14115E4A19C6EEAF00F5ABE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14115E5219C6EEAF00F5ABE1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14115E5319C6EEAF00F5ABE1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		14115E5519C6EEAF00F5ABE1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14115E5619C6EEAF00F5ABE1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		14115E6B19C6EEAF00F5ABE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14115E6C19C6EEAF00F5ABE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14115E7019C6EEAF00F5ABE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14115E7119C6EEAF00F5ABE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14115E7319C6EEAF00F5ABE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE5606C84BE4F199440706E /* Pods-Rocket.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rocket/Rocket-Prefix.pch";
+				INFOPLIST_FILE = "Rocket/Rocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14115E7419C6EEAF00F5ABE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE5606C84BE4F199440706E /* Pods-Rocket.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rocket/Rocket-Prefix.pch";
+				INFOPLIST_FILE = "Rocket/Rocket-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		14115E7619C6EEAF00F5ABE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rocket.app/Rocket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rocket/Rocket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RocketTests/RocketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14115E7719C6EEAF00F5ABE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Rocket.app/Rocket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rocket/Rocket-Prefix.pch";
+				INFOPLIST_FILE = "RocketTests/RocketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14115E3819C6EEAF00F5ABE1 /* Build configuration list for PBXProject "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14115E7019C6EEAF00F5ABE1 /* Debug */,
+				14115E7119C6EEAF00F5ABE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14115E7219C6EEAF00F5ABE1 /* Build configuration list for PBXNativeTarget "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14115E7319C6EEAF00F5ABE1 /* Debug */,
+				14115E7419C6EEAF00F5ABE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14115E7519C6EEAF00F5ABE1 /* Build configuration list for PBXNativeTarget "RocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14115E7619C6EEAF00F5ABE1 /* Debug */,
+				14115E7719C6EEAF00F5ABE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14001D8A19EC066A00174D39 /* Cloth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14001D8B19EC066A00174D39 /* Cloth.xcdatamodel */,
+			);
+			currentVersion = 14001D8B19EC066A00174D39 /* Cloth.xcdatamodel */;
+			path = Cloth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14115E3519C6EEAF00F5ABE1 /* Project object */;
+}
